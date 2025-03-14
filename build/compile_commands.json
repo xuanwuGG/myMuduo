@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/yyf/Pro1/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/InetAddress.o -c /home/yyf/Pro1/myMuduo/InetAddress.cc",
+  "file": "/home/yyf/Pro1/myMuduo/InetAddress.cc",
+  "output": "CMakeFiles/myMuduo.dir/InetAddress.o"
+},
+{
+  "directory": "/home/yyf/Pro1/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Logger.o -c /home/yyf/Pro1/myMuduo/Logger.cc",
+  "file": "/home/yyf/Pro1/myMuduo/Logger.cc",
+  "output": "CMakeFiles/myMuduo.dir/Logger.o"
+},
+{
+  "directory": "/home/yyf/Pro1/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/TimeStamp.o -c /home/yyf/Pro1/myMuduo/TimeStamp.cc",
+  "file": "/home/yyf/Pro1/myMuduo/TimeStamp.cc",
+  "output": "CMakeFiles/myMuduo.dir/TimeStamp.o"
+}
+]
