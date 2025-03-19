@@ -1,20 +1,38 @@
 [
 {
-  "directory": "/home/yyf/Pro1/myMuduo/build",
-  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/InetAddress.o -c /home/yyf/Pro1/myMuduo/InetAddress.cc",
-  "file": "/home/yyf/Pro1/myMuduo/InetAddress.cc",
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Channel.o -c /home/yyf/Pro/myMuduo/Channel.cc",
+  "file": "/home/yyf/Pro/myMuduo/Channel.cc",
+  "output": "CMakeFiles/myMuduo.dir/Channel.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/EventLoop.o -c /home/yyf/Pro/myMuduo/EventLoop.cc",
+  "file": "/home/yyf/Pro/myMuduo/EventLoop.cc",
+  "output": "CMakeFiles/myMuduo.dir/EventLoop.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/InetAddress.o -c /home/yyf/Pro/myMuduo/InetAddress.cc",
+  "file": "/home/yyf/Pro/myMuduo/InetAddress.cc",
   "output": "CMakeFiles/myMuduo.dir/InetAddress.o"
 },
 {
-  "directory": "/home/yyf/Pro1/myMuduo/build",
-  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Logger.o -c /home/yyf/Pro1/myMuduo/Logger.cc",
-  "file": "/home/yyf/Pro1/myMuduo/Logger.cc",
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Logger.o -c /home/yyf/Pro/myMuduo/Logger.cc",
+  "file": "/home/yyf/Pro/myMuduo/Logger.cc",
   "output": "CMakeFiles/myMuduo.dir/Logger.o"
 },
 {
-  "directory": "/home/yyf/Pro1/myMuduo/build",
-  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/TimeStamp.o -c /home/yyf/Pro1/myMuduo/TimeStamp.cc",
-  "file": "/home/yyf/Pro1/myMuduo/TimeStamp.cc",
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/TcpServer.o -c /home/yyf/Pro/myMuduo/TcpServer.cc",
+  "file": "/home/yyf/Pro/myMuduo/TcpServer.cc",
+  "output": "CMakeFiles/myMuduo.dir/TcpServer.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/TimeStamp.o -c /home/yyf/Pro/myMuduo/TimeStamp.cc",
+  "file": "/home/yyf/Pro/myMuduo/TimeStamp.cc",
   "output": "CMakeFiles/myMuduo.dir/TimeStamp.o"
 }
 ]

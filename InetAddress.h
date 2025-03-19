@@ -11,10 +11,10 @@ public:
     explicit InetAddress(const sockaddr_in &addr):addr_(addr){}
     std::string toIp() const;
     std::string toIpPort() const;
-    std::string toPort() const;
+    uint16_t toPort() const;
     const sockaddr_in* getSockAddr() const {
         return &addr_;
     }
 private:
-sockaddr_in addr_;
+sockaddr_in addr_;  //c++可以少struct
 };
