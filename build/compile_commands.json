@@ -7,6 +7,12 @@
 },
 {
   "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/DefaultPoller.o -c /home/yyf/Pro/myMuduo/DefaultPoller.cc",
+  "file": "/home/yyf/Pro/myMuduo/DefaultPoller.cc",
+  "output": "CMakeFiles/myMuduo.dir/DefaultPoller.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
   "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/EventLoop.o -c /home/yyf/Pro/myMuduo/EventLoop.cc",
   "file": "/home/yyf/Pro/myMuduo/EventLoop.cc",
   "output": "CMakeFiles/myMuduo.dir/EventLoop.o"
@@ -22,6 +28,12 @@
   "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Logger.o -c /home/yyf/Pro/myMuduo/Logger.cc",
   "file": "/home/yyf/Pro/myMuduo/Logger.cc",
   "output": "CMakeFiles/myMuduo.dir/Logger.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Poller.o -c /home/yyf/Pro/myMuduo/Poller.cc",
+  "file": "/home/yyf/Pro/myMuduo/Poller.cc",
+  "output": "CMakeFiles/myMuduo.dir/Poller.o"
 },
 {
   "directory": "/home/yyf/Pro/myMuduo/build",
