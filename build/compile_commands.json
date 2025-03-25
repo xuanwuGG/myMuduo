@@ -13,6 +13,12 @@
 },
 {
   "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/EpollPoller.o -c /home/yyf/Pro/myMuduo/EpollPoller.cc",
+  "file": "/home/yyf/Pro/myMuduo/EpollPoller.cc",
+  "output": "CMakeFiles/myMuduo.dir/EpollPoller.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
   "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/EventLoop.o -c /home/yyf/Pro/myMuduo/EventLoop.cc",
   "file": "/home/yyf/Pro/myMuduo/EventLoop.cc",
   "output": "CMakeFiles/myMuduo.dir/EventLoop.o"

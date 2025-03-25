@@ -29,5 +29,7 @@ private:
     void update(int operation, Channel* channel);
     using ChannelList = std::vector<Channel*>;
     int epollfd_;
+
+    using EventList = std::vector<struct epoll_event>;
     EventList events_;
 };

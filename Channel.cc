@@ -13,7 +13,7 @@ Channel::Channel(EventLoop* loop, int fd)
     fd_(fd),
     events_(0),
     revents_(0),
-    index_(-1),
+    index_(-1), //此处的-1表示该channel还没有被添加到poller中，在epollpoller可以找到相关定义
     tied_(false)
 {
 }
