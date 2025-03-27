@@ -3,6 +3,7 @@
 #include<atomic>
 #include<memory>
 #include<mutex>
+#include<vector>
 
 #include "noncopyable.h"
 #include "TimeStamp.h"
@@ -56,7 +57,6 @@ private:
     std::unique_ptr<Channel> wakeupChannel_; 
     ChannelList activeChannels_; //记录当前活跃的channel
 
-    std::atomic<bool>  callingPendingFunctors_; //是否正在执行回调函数
     std::vector<Functor> pendingFunctors_; //回调函数队列
     std::mutex mutex_; //互斥锁
 };
