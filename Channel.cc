@@ -1,5 +1,6 @@
 #include"Channel.h"
 #include"Logger.h"
+#include"EventLoop.h"
 
 #include<sys/epoll.h>
 
@@ -30,12 +31,13 @@ void Channel::tie(const std::shared_ptr<void>& obj)
 //当改变channel所表示的fd的状态时，调用update，在poller中更新fd的状态（epoll_ctl）
 void Channel::update()
 {
-    //通过Channel所属的EventLoop对象调用epoller相应方法，注册fd事件
+    loop_->updateChannel(this);
     //TODO:Channel::loop_->updateChannel(this);
 }
 //在Channel所属的EventLoop中，把当前的Channel对象从poller中移除
 void Channel::remove()
 {
+    loop_->removeChannel(this);
     //TODO:loop_->removeChannel(this);
 }
 

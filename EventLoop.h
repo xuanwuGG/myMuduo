@@ -55,7 +55,6 @@ private:
     int wakeupFd_; //主要当mainloop获取到一个新的channel时，通过轮询算法选择一个subloop
     std::unique_ptr<Channel> wakeupChannel_; 
     ChannelList activeChannels_; //记录当前活跃的channel
-    Channel* currentActiveChannel_; //当前正在处理的channel
 
     std::atomic<bool>  callingPendingFunctors_; //是否正在执行回调函数
     std::vector<Functor> pendingFunctors_; //回调函数队列
