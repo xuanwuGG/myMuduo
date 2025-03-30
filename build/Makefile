@@ -265,6 +265,21 @@ TcpServer.s:
 .PHONY : TcpServer.s
 
 # target to build an object file
+Thread.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMuduo.dir/build.make CMakeFiles/myMuduo.dir/Thread.o
+.PHONY : Thread.o
+
+# target to preprocess a source file
+Thread.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMuduo.dir/build.make CMakeFiles/myMuduo.dir/Thread.i
+.PHONY : Thread.i
+
+# target to generate assembly for a file
+Thread.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMuduo.dir/build.make CMakeFiles/myMuduo.dir/Thread.s
+.PHONY : Thread.s
+
+# target to build an object file
 TimeStamp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMuduo.dir/build.make CMakeFiles/myMuduo.dir/TimeStamp.o
 .PHONY : TimeStamp.o
@@ -315,6 +330,9 @@ help:
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
 	@echo "... TimeStamp.o"
 	@echo "... TimeStamp.i"
 	@echo "... TimeStamp.s"
