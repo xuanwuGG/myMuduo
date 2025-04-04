@@ -1,6 +1,18 @@
 [
 {
   "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Acceptor.o -c /home/yyf/Pro/myMuduo/Acceptor.cc",
+  "file": "/home/yyf/Pro/myMuduo/Acceptor.cc",
+  "output": "CMakeFiles/myMuduo.dir/Acceptor.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Buffer.o -c /home/yyf/Pro/myMuduo/Buffer.cc",
+  "file": "/home/yyf/Pro/myMuduo/Buffer.cc",
+  "output": "CMakeFiles/myMuduo.dir/Buffer.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
   "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Channel.o -c /home/yyf/Pro/myMuduo/Channel.cc",
   "file": "/home/yyf/Pro/myMuduo/Channel.cc",
   "output": "CMakeFiles/myMuduo.dir/Channel.o"
@@ -58,6 +70,18 @@
   "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Poller.o -c /home/yyf/Pro/myMuduo/Poller.cc",
   "file": "/home/yyf/Pro/myMuduo/Poller.cc",
   "output": "CMakeFiles/myMuduo.dir/Poller.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/Socket.o -c /home/yyf/Pro/myMuduo/Socket.cc",
+  "file": "/home/yyf/Pro/myMuduo/Socket.cc",
+  "output": "CMakeFiles/myMuduo.dir/Socket.o"
+},
+{
+  "directory": "/home/yyf/Pro/myMuduo/build",
+  "command": "/usr/bin/g++ -DmyMuduo_EXPORTS   -g -std=c++11 -g -fPIC -o CMakeFiles/myMuduo.dir/TcpConnection.o -c /home/yyf/Pro/myMuduo/TcpConnection.cc",
+  "file": "/home/yyf/Pro/myMuduo/TcpConnection.cc",
+  "output": "CMakeFiles/myMuduo.dir/TcpConnection.o"
 },
 {
   "directory": "/home/yyf/Pro/myMuduo/build",
